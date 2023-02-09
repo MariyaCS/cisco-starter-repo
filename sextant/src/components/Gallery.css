@@ -1,0 +1,21 @@
+.Card {
+    background-color: #d6e7f1;
+    width: 250px;
+    height: calc(100vh/3);;
+    border: 1.5px solid #2c4370;
+    border-radius: 5px;
+    margin: 2rem 2rem 2rem 0;
+    padding: 0 1.5rem;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 28px 4px rgba(0, 0, 0, 0.1);
+    transition: transform .3s ease;
+    cursor: pointer;
+    flex-wrap: wrap;
+    color: #000000;
+    text-align: center;
+}
+
+.Card:hover{
+    transform: scale(1.05);
+}
